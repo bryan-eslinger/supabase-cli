@@ -1059,6 +1059,7 @@ EOF
 					"REGION=local",
 					"RUN_JANITOR=true",
 					"ERL_AFLAGS=-proto_dist inet_tcp",
+					"RLIMIT_NOFILE=",
 				},
 				Cmd: []string{
 					"/bin/sh", "-c",
